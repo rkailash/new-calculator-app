@@ -1,0 +1,21 @@
+{
+  "name": "new-react-calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"node index.js\" \"cd client && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "expr-eval": "^1.2.2",
+    "express": "^4.16.3",
+    "save": "^2.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
